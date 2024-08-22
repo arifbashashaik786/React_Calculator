@@ -1,0 +1,61 @@
+
+.container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+
+
+}
+.output{
+  background: none;
+  outline: none;
+  border: none;
+  width: 330px;
+  height: 70px;
+  
+  color: white;
+  padding: 2px 5px;
+ 
+  text-align: right;
+  font-size: 70px;
+}
+input{
+  color:white;
+  font-weight: bold;
+}
+h1{
+  background:linear-gradient(red,blue,green);
+  letter-spacing: 6px;
+}
+.calculator
+{
+  border: 1px solid white;
+}
+
+button{
+  width: 85px;
+  height:90px;
+  border: none;
+  cursor: pointer;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  font-size: 26px;
+  
+}
+.operator{
+  border-right: none; 
+}
+button:hover{
+  background-color: aquamarine;
+  
+}
+.row{
+  opacity: 0.5;
+  
+}
+.digit{
+  color: white;
+}
